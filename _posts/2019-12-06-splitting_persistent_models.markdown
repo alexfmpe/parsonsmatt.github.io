@@ -23,7 +23,7 @@ It also offers less features and type-safety than those two libraries.
 Trade-offs abound!
 
 Usually, `persistent` users will define the models/tables for their database using the `persistent` QuasiQuoter language.
-The examples in the [Persistent chapeter in the Yesod book](https://www.yesodweb.com/book/persistent) use the QuasiQuoter directly in line with the Haskell code:
+The examples in the [Persistent chapter in the Yesod book](https://www.yesodweb.com/book/persistent) use the QuasiQuoter directly in line with the Haskell code:
 
 ```haskell
 share [mkPersist sqlSettings, mkMigrate "migrateAll"] [persistLowerCase|
